@@ -3,7 +3,9 @@
 	"name" : "codeigniter/framework",
 	"license": "MIT",
 	"require": {
-		"php": ">=5.2.4"
+		"php": ">=5.2.4",
+		"doctrine/mongodb-odm": "1.0.*@beta",
+   		"doctrine/mongodb-odm-bundle": "3.0.*@beta"
 	},
 	"require-dev": {
 		"mikey179/vfsStream": "1.1.*"
