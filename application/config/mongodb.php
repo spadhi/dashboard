@@ -32,12 +32,16 @@ if( !defined( 'BASEPATH' ) ) exit( 'No direct script access allowed' );
 |   ['mongo_remove_all']       Remove all the docs matching a criteria or just the first one
 |   ['mongo_use_upsert']       Create a new document when updating a non-existent one
 |   ['mongo_expand_dbrefs']    Decide to autamagically expand any DBRefs while running queries
+'hostname' => 'ds047692.mongolab.com:47692',
+	'username' => 'heroku_w8dn2z47',
+	'password' => '2a7s406f707c39rp8c0t5jlruk',
+	'database' => 'heroku_w8dn2z47',
 */
-$config['mongo_host']            = 'localhost';
-$config['mongo_port']            = 27017;
-$config['mongo_user']            = '';
-$config['mongo_pass']            = '';
-$config['mongo_db']              = 'dashboard';
+$config['mongo_host']            = 'ds047692.mongolab.com';
+$config['mongo_port']            = 47692;
+$config['mongo_user']            = 'heroku_w8dn2z47';
+$config['mongo_pass']            = '2a7s406f707c39rp8c0t5jlruk';
+$config['mongo_db']              = 'heroku_w8dn2z47';
 $config['mongo_replicaset']      = FALSE;
 $config['mongo_slave_ok']        = TRUE;
 $config['mongo_write_timeout']   = 5000;
@@ -47,16 +51,16 @@ $config['mongo_remove_all']      = TRUE;
 $config['mongo_use_upsert']      = TRUE;
 $config['mongo_expand_dbrefs']   = TRUE;
 
-$config['default']['mongo_hostbase'] = 'localhost';
+$config['default']['mongo_hostbase'] = 'ds047692.mongolab.com';
 
 //Database Name
-$config['default']['mongo_database'] = 'dashboard';
+$config['default']['mongo_database'] = 'heroku_w8dn2z47';
 
 //DB Username - by default, it is empty 
-$config['default']['mongo_username'] = '';
+$config['default']['mongo_username'] = 'heroku_w8dn2z47';
 
 //DB Password - by default, it is empty 
-$config['default']['mongo_password'] = '';
+$config['default']['mongo_password'] = '2a7s406f707c39rp8c0t5jlruk';
 
 /* End of file mongodb.php */
 /* Location: ./{APPLICATION}/config/mongodb.php */
