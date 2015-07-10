@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-$config['base_url'] = 'http://localhost/github/dashboard';
+$config['base_url'] = 'http://damp-anchorage-6380.herokuapp.com/';
 
 /*
 |--------------------------------------------------------------------------
