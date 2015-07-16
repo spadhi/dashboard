@@ -39,8 +39,8 @@ if( !defined( 'BASEPATH' ) ) exit( 'No direct script access allowed' );
 */
 $config['mongo_host']            = 'ds047692.mongolab.com';
 $config['mongo_port']            = 47692;
-$config['mongo_user']            = 'test_w8dn2z47';
-$config['mongo_pass']            = 'test';
+$config['mongo_user']            = 'testUser';
+$config['mongo_pass']            = 'password';
 $config['mongo_db']              = 'heroku_w8dn2z47';
 $config['mongo_replicaset']      = FALSE;
 $config['mongo_slave_ok']        = FALSE;
@@ -57,10 +57,10 @@ $config['default']['mongo_hostbase'] = 'ds047692.mongolab.com:47692';
 $config['default']['mongo_database'] = 'heroku_w8dn2z47';
 
 //DB Username - by default, it is empty 
-$config['default']['mongo_username'] = 'test_w8dn2z47';
+$config['default']['mongo_username'] = 'testUser';
 
 //DB Password - by default, it is empty 
-$config['default']['mongo_password'] = 'test';
+$config['default']['mongo_password'] = 'password';
 
 /* End of file mongodb.php */
 /* Location: ./{APPLICATION}/config/mongodb.php */
