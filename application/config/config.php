@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-$config['base_url'] = 'https://blooming-citadel-4701.herokuapp.com';
+$config['base_url'] = 'https://damp-anchorage-6380.herokuapp.com';
 
 /*
 |--------------------------------------------------------------------------
