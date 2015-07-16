@@ -19,30 +19,30 @@
 							<a href="" >
 					<img src="<?php echo $this->config->base_url(); ?>application/views/assets/img/refresh.png" alt="Mountain View" style="width:60px;height:60px"></a>
                     </div>
-<!--					<div class="last-updated" id="image" >-->
-<!--					Data is-->
-<!--							--><?php
-//						 foreach($crontime as $rows){
-//						 	$crondate=date('Y-m-d H:i:s ', $rows['time']->sec);
-//							$today = date("Y-m-d H:i:s");
-//							$date1 = new DateTime($crondate);
-//							$date2 = new DateTime($today);
-//
-//							$diff = $date1->diff($date2);
-//
-//							//$hours = $diff->h;
-//							//$hours = $hours + ($diff->days*24);
-//
-//							//echo $hours . "hrs";
-//							echo $hours = $diff->h + ($diff->d*24).' hrs ';
-//
-//							//echo $diff->d.' days - ';
-//							//echo $diff->h.' hours - ';
-//							echo $diff->i.' mins old';
-//
-//						 }
-//						?>
-<!--							</div>-->
+					<div class="last-updated" id="image" >
+					Data is
+							<?php
+						 foreach($crontime as $rows){
+						 	$crondate=date('Y-m-d H:i:s ', $rows['time']->sec);
+							$today = date("Y-m-d H:i:s");
+							$date1 = new DateTime($crondate);
+							$date2 = new DateTime($today);
+
+							$diff = $date1->diff($date2);
+
+							//$hours = $diff->h;
+							//$hours = $hours + ($diff->days*24);
+
+							//echo $hours . "hrs";
+							echo $hours = $diff->h + ($diff->d*24).' hrs ';
+
+							//echo $diff->d.' days - ';
+							//echo $diff->h.' hours - ';
+							echo $diff->i.' mins old';
+
+						 }
+						?>
+							</div>
                         </div>
                         <div class="panel-body">
 						
