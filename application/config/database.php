@@ -57,6 +57,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 | The $query_builder variables lets you determine whether or not to load
 | the query builder class.
+'hostname' => 'ds047692.mongolab.com:47692',
+	'username' => 'heroku_w8dn2z47',
+	'password' => '2a7s406f707c39rp8c0t5jlruk',
+	'database' => 'heroku_w8dn2z47',
 */
 
 $active_group = 'default';
@@ -65,8 +69,8 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'ds047692.mongolab.com:47692',
-	'username' => 'heroku_w8dn2z47',
-	'password' => '2a7s406f707c39rp8c0t5jlruk',
+	'username' => 'test_w8dn2z47',
+	'password' => 'test',
 	'database' => 'heroku_w8dn2z47',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
