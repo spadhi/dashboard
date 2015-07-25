@@ -37,11 +37,16 @@ if( !defined( 'BASEPATH' ) ) exit( 'No direct script access allowed' );
 	'password' => '2a7s406f707c39rp8c0t5jlruk',
 	'database' => 'heroku_w8dn2z47',
 */
-$config['mongo_host']            = 'ds047692.mongolab.com';
-$config['mongo_port']            = 47692;
+// $config['mongo_host']            = 'ds047692.mongolab.com';
+// $config['mongo_port']            = 47692;
+// $config['mongo_user']            = 'test_w8dn2z47';
+// $config['mongo_pass']            = 'test';
+// $config['mongo_db']              = 'heroku_w8dn2z47';
+$config['mongo_host']            = 'ds039860.mongolab.com';
+$config['mongo_port']            = 39860;
 $config['mongo_user']            = 'test_w8dn2z47';
 $config['mongo_pass']            = 'test';
-$config['mongo_db']              = 'heroku_w8dn2z47';
+$config['mongo_db']              = 'dashboard';
 $config['mongo_replicaset']      = FALSE;
 $config['mongo_slave_ok']        = FALSE;
 $config['mongo_write_timeout']   = 5000;
@@ -51,10 +56,15 @@ $config['mongo_remove_all']      = TRUE;
 $config['mongo_use_upsert']      = TRUE;
 $config['mongo_expand_dbrefs']   = TRUE;
 
-$config['default']['mongo_hostbase'] = 'ds047692.mongolab.com:47692';
+// $config['default']['mongo_hostbase'] = 'ds047692.mongolab.com:47692';
+// 
+// //Database Name
+// $config['default']['mongo_database'] = 'heroku_w8dn2z47';
+$config['default']['mongo_hostbase'] = 'ds039860.mongolab.com:39860';
 
 //Database Name
-$config['default']['mongo_database'] = 'heroku_w8dn2z47';
+$config['default']['mongo_database'] = 'dashboard';
+
 
 //DB Username - by default, it is empty 
 $config['default']['mongo_username'] = 'test_w8dn2z47';
